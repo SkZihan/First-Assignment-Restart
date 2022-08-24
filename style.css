@@ -41,7 +41,7 @@ body {
 /* Second Part  */
 .second-part {
     text-align: center;
-    margin: 90px 250px 0px;
+    margin: 90px 250px 40px;
 }
 
 .donation {
@@ -104,4 +104,71 @@ body {
     border: 2px solid rgba(218, 37, 37, 0.753);
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Third Part */
+.third-part {
+    text-align: center;
+    margin: 0px 130px;
+}
+
+.third-part h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 8px 0px;
+}
+
+.third-part p {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(70, 70, 70, 0.411);
+    padding-bottom: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description img {
+    width: 50px;
+    padding: 20px 0px;
+}
+
+.description h1 {
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.description p {
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.plan-one {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(180, 226, 252, 0.404);
+    border: 1px solid white;
+    border-radius: 2px;
+    text-align: start;
+}
+
+.plan-two {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(238, 180, 252, 0.404);
+    border: 1px solid white;
+    border-radius: 2px;
+    text-align: start;
+}
+
+.plan-three {
+    width: 300px;
+    padding: 20px;
+    background-color: rgba(252, 251, 180, 0.404);
+    border: 1px solid white;
+    border-radius: 2px;
+    text-align: start;
 }
