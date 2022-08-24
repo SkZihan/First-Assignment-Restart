@@ -1,0 +1,107 @@
+body {
+    margin: 0px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* First Part */
+.first-part {
+    height: 700px;
+    text-align: center;
+    background-image: url(images/donation9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-part h1 {
+    margin: 0;
+    padding-top: 180px;
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(255, 248, 248);
+}
+
+.first-part p {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 248, 248);
+}
+
+.first-part button {
+    color: rgb(255, 248, 248);
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    padding: 12px 20px;
+    background-color: rgba(218, 37, 37, 0.753);
+    border: 2px solid rgba(218, 37, 37, 0.753);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Second Part  */
+.second-part {
+    text-align: center;
+    margin: 90px 250px 0px;
+}
+
+.donation {
+    margin-bottom: 50px;
+}
+
+.donation h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.donation p {
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(70, 70, 70, 0.411);
+}
+
+.amount {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.taka {
+    font-size: 25px;
+    padding: 40px 30px;
+    color: rgb(71, 70, 70);
+    background-color: rgba(227, 232, 233, 0.274);
+    font-weight: 700;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.selected-taka {
+    font-size: 25px;
+    padding: 40px 30px;
+    color: rgb(235, 55, 55);
+    background-color: rgba(235, 164, 191, 0.24);
+    font-weight: 700;
+    border: 2px solid rgb(235, 55, 55);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.other-amount {
+    font-size: 20px;
+    padding: 40px 0px 20px;
+    color: rgba(70, 70, 70, 0.411);
+    border-bottom: 2px solid rgba(70, 70, 70, 0.158);
+}
+
+.second-part button {
+    color: rgb(255, 248, 248);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0px;
+    padding: 12px 20px;
+    background-color: rgba(218, 37, 37, 0.753);
+    border: 2px solid rgba(218, 37, 37, 0.753);
+    border-radius: 5px;
+    cursor: pointer;
+}
