@@ -62,7 +62,6 @@ body {
 
 .amount {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -72,7 +71,7 @@ body {
     color: rgb(71, 70, 70);
     background-color: rgba(227, 232, 233, 0.274);
     font-weight: 700;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -83,7 +82,7 @@ body {
     background-color: rgba(235, 164, 191, 0.24);
     font-weight: 700;
     border: 2px solid rgb(235, 55, 55);
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -101,7 +100,7 @@ body {
     margin: 15px 0px;
     padding: 12px 20px;
     background-color: rgba(218, 37, 37, 0.753);
-    border: 2px solid rgba(218, 37, 37, 0.753);
+    border: 1px solid rgba(218, 37, 37, 0.753);
     border-radius: 5px;
     cursor: pointer;
 }
@@ -150,7 +149,6 @@ body {
     width: 300px;
     padding: 20px;
     background-color: rgba(180, 226, 252, 0.404);
-    border: 1px solid white;
     border-radius: 10px;
     text-align: start;
 }
@@ -159,7 +157,6 @@ body {
     width: 300px;
     padding: 20px;
     background-color: rgba(238, 180, 252, 0.404);
-    border: 1px solid white;
     border-radius: 10px;
     text-align: start;
 }
@@ -168,7 +165,6 @@ body {
     width: 300px;
     padding: 20px;
     background-color: rgba(252, 251, 180, 0.404);
-    border: 1px solid white;
     border-radius: 10px;
     text-align: start;
 }
@@ -180,56 +176,92 @@ body {
     justify-content: space-between;
 }
 
-.image img {
+.image-one img {
     width: 520px;
     border-radius: 5px;
 }
 
-.vlog {
+.vlog-one {
     padding-left: 40px;
 }
 
-.vlog h1 {
+.vlog-one h1 {
     font-size: 40px;
 }
 
-.vlog p {
+.vlog-one p {
     font-size: 20px;
+    text-align: justify;
 }
 
-.vlog button {
+.vlog-one button {
     color: rgb(255, 248, 248);
     font-size: 20px;
     font-weight: 700;
     padding: 12px 20px;
     background-color: rgba(218, 37, 37, 0.753);
-    border: 2px solid rgba(218, 37, 37, 0.753);
+    border: 1px solid rgba(218, 37, 37, 0.753);
     border-radius: 5px;
     cursor: pointer;
 }
 
 /* Fifth Part */
-
 .fifth-part {
+    margin: 80px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-two img {
+    width: 520px;
+    border-radius: 5px;
+}
+
+.vlog-two {
+    padding-right: 40px;
+}
+
+.vlog-two h1 {
+    font-size: 40px;
+}
+
+.vlog-two p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.vlog-two button {
+    color: rgb(255, 248, 248);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 20px;
+    background-color: rgba(218, 37, 37, 0.753);
+    border: 1px solid rgba(218, 37, 37, 0.753);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Sixth Part */
+
+.sixth-part {
     text-align: center;
 }
 
-.fifth-part h1 {
+.sixth-part h1 {
     font-size: 60px;
     font-weight: 900;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-.fifth-part p {
-    font-size: 17px;
+.sixth-part p {
+    font-size: 20px;
     font-weight: 600;
     color: rgba(70, 70, 70, 0.411);
-    margin-bottom: 40px;
 }
 
 .form {
-    margin: 60px 250px;
-    padding: 100px 80px;
+    margin: 60px 250px 150px;
+    padding: 100px;
     background-color: rgba(197, 166, 63, 0.315);
     border-radius: 5px;
 }
@@ -253,9 +285,7 @@ body {
     cursor: pointer;
 }
 
-
-
-/*  */
+/* Seventh part */
 .footer {
     text-align: center;
     background-color: rgb(20, 24, 73);
