@@ -151,7 +151,7 @@ body {
     padding: 20px;
     background-color: rgba(180, 226, 252, 0.404);
     border: 1px solid white;
-    border-radius: 2px;
+    border-radius: 10px;
     text-align: start;
 }
 
@@ -160,7 +160,7 @@ body {
     padding: 20px;
     background-color: rgba(238, 180, 252, 0.404);
     border: 1px solid white;
-    border-radius: 2px;
+    border-radius: 10px;
     text-align: start;
 }
 
@@ -169,6 +169,40 @@ body {
     padding: 20px;
     background-color: rgba(252, 251, 180, 0.404);
     border: 1px solid white;
-    border-radius: 2px;
+    border-radius: 10px;
     text-align: start;
+}
+
+/* Fourth Part */
+.fourth-part {
+    margin: 80px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-part img {
+    width: 550px;
+    border-radius: 5px;
+}
+
+
+
+
+.footer {
+    text-align: center;
+    background-color: rgb(20, 24, 73);
+    padding: 30px;
+}
+
+.footer h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(248, 116, 116);
+    margin-bottom: 0px;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: 400;
+    color: bisque;
 }
